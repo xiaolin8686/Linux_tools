@@ -11,13 +11,13 @@ else
     case "$KEY" in 
     [n,N]) 
     echo "请执行下方命令开关闭代理:"
-    echo -e "\nunset http_proxy&&unset https_proxy&&unset ftp_proxy&&bash proxy -c\n"
+    echo -e "\nunset http_proxy&&unset https_proxy&&unset ftp_proxy&&bash proxy.sh -c\n"
     ;; 
     [y,Y]) 
     read -p "请输入代理IP地址 ->" VPN
     read -p "请输入代理端口号 ->" POST
     echo "请执行下方命令开启代理:"
-    echo -e "\nexport http_proxy=http://$VPN:$POST&&export https_proxy=http://$VPN:$POST&&export ftp_proxy=http://$VPN:$POST&&bash proxy -c\n"
+    echo -e "\nexport http_proxy=http://$VPN:$POST&&export https_proxy=http://$VPN:$POST&&export ftp_proxy=http://$VPN:$POST&&bash proxy.sh -c\n"
     ;; 
     [e,E]) 
     echo "退出" 
