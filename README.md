@@ -12,17 +12,13 @@
 
 ​	功能：通过操作 ~/.bashrc 文件，设置永久全局代理
 
-​	使用方法：https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Global_Proxy/README.md
-
-​	下载地址：https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/proxy_bashrc
+​	[使用方法](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Global_Proxy/README.md)	[下载地址](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/proxy_bashrc)
 
 ### proxy_profile
 
 ​	功能：通过操作 /etc/profile 文件，设置永久全局代理
 
-​	使用方法：https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Global_Proxy/README.md
-
-​	下载地址：https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/proxy_profile
+​	[使用方法](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Global_Proxy/README.md)	[下载地址](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/proxy_profile)
 
 ### CentOS-7-Yum-aliyun.sh
 
