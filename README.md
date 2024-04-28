@@ -20,17 +20,17 @@
 
 ​	[使用方法](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Global_Proxy/README.md#proxy_profile)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[下载地址](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/proxy_profile)
 
-### CentOS-7-Yum-aliyun.sh
+## CentOS-7-Yum-aliyun.sh
 
 ​	功能：CentOS 7 更换 yum 源为阿里云镜像源，需要连接网络
 
-### Kali-apt-get.sh
+## Kali-apt-get.sh
 
 ​	功能：Kali 系统，更换 apt 源为国内镜像源
 
 ​	内部有多个镜像地址，可取消镜像地址前的注释符号使其生效
 
-### vm_disk_space_reduce.sh
+## vm_disk_space_reduce.sh
 
 ​	功能：用于 Linux VM 虚拟机磁盘空间回收，执行完后，需要在 VM 设置界面中，点击压缩磁盘使更改生效
 
