@@ -1,7 +1,9 @@
 # 灯塔 2.6.2 CentOS 本地安装
 
 >支持系统：CentOS 7
+>
 >软件包下载地址：[GitHub.com](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/ARL_toolkit.tar.gz)
+>
 >**注意：该脚本原本就只适配了 CentOS 7，且该脚本未在云服务器上执行过，若在云服务器上执行安装脚本可能会出现未知 bug**
 
 ## 软件组成
@@ -17,6 +19,7 @@
 ## 安装步骤
 
 1. 将 ARL_toolkit.tar.gz 上传到服务器，目录随意。
+
    也可以通过命令 `wget https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/ARL_toolkit.tar.gz` 直接在服务器上下载，需要开启代理，临时代理命令脚本 -> [Linux-proxy.sh](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Linux-proxy.sh)
 
 2. 解压软件包
@@ -35,7 +38,7 @@
 
    ![image-20240517204004893](pic/image-20240517204004893.png)
 
-4. 执行自动化安装脚本==（**注意：需要 root 权限，安装过程中 CentOS 7 系统需要全程连接网络，请保持网络连接稳定性**）==
+4. 执行自动化安装脚本（**注意：需要 root 权限，安装过程中 CentOS 7 系统需要全程连接网络，请保持网络连接稳定性**）
 
    ~~~bash
    sudo bash main.sh
@@ -62,7 +65,9 @@
 ## 可能报错
 
 > 由于在安装过程中，服务 `rabbitmq-server.service` 概率出现下列报错
+>
 > `job for rabbitmq-server.service failed because the control process exited with error code. see "systemctl status rabbitmq-server.service" and "journalctl -xe" for details`
+>
 > 经测试，对网卡进行 DNS 设置后重启虚拟机即可解决该问题
 
 ~~~bash
@@ -95,7 +100,9 @@ reboot
 ~~~
 
 >由于在安装过程中，服务 `nginx.service` 概率出现下列报错
+>
 >`job for nginx.service failed because the control process exited with error code. see "systemctl status nginx.service" and "journalctl -xe" for details`
+>
 >经测试，关闭 SELinux 系统即可
 
 ~~~bash
