@@ -114,4 +114,7 @@ vi /etc/selinux/config
 
 # 将参数 SELINUX 更改为 disabled
 SELINUX=disabled
+
+# 重启生效
+reboot
 ~~~
