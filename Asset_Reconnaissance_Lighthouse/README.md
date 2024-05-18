@@ -1,10 +1,10 @@
 # 灯塔 2.6.2 本地安装
 
->支持系统：CentOS 7
+>支持系统：CentOS 7		[系统部署教程](https://blog.csdn.net/zatongtong/article/details/135666908)
 >
 >软件包下载地址：[GitHub.com](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/ARL_toolkit.tar.gz)
 >
->**注意：该脚本原本就只适配了 CentOS 7，且该脚本未在云服务器上执行过，若在云服务器上执行安装脚本可能会出现未知 bug**
+>**注意：该脚本原本就只测试了 CentOS 7，且该脚本未在云服务器上执行过，若在云服务器上执行安装脚本可能会出现未知 bug**
 
 ## 软件组成
 
@@ -20,7 +20,9 @@
 
 1. 将 ARL_toolkit.tar.gz 上传到服务器，目录随意。
 
-   也可以通过命令 `wget https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/ARL_toolkit.tar.gz` 直接在服务器上下载，需要开启代理，临时代理命令脚本 -> [Linux-proxy.sh](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Linux-proxy.sh)
+   也可以通过命令 `wget https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/ARL_toolkit.tar.gz` 直接在服务器上下载
+
+   该操作可能会出现服务器访问不到 GitHub 的情况，如果无法访问则需要开启代理，临时代理命令脚本 -> [Linux-proxy.sh](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Linux-proxy.sh)
 
 2. 解压软件包
 
