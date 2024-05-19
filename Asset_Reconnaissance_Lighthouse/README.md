@@ -10,8 +10,10 @@
 
 ## 注明
 
-&nbsp;&nbsp;&nbsp;&nbsp;灯塔 ARL 的官方开源项目被删除了，项目源地址 [ARL 灯塔系统](https://github.com/TophantTechnology/ARL)
+&nbsp;&nbsp;&nbsp;&nbsp;灯塔 ARL 的官方开源项目被删除了，项目源地址：[ARL 灯塔系统](https://github.com/TophantTechnology/ARL)
+
 &nbsp;&nbsp;&nbsp;&nbsp;灯塔 ARL 开源项目关闭原因：[跳转链接](https://mp.weixin.qq.com/s/hM3t3lYQVqDOlrLKz3_TSQ)
+
 &nbsp;&nbsp;&nbsp;&nbsp;灯塔 ARL 官方使用文档：[使用文档](https://tophanttechnology.github.io/ARL-doc/)
 
 ## 软件组成
