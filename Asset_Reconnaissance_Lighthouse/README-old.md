@@ -20,7 +20,7 @@
 
 1. 将 ARL_toolkit.tar.gz 上传到服务器，目录随意。
 
-   也可以通过命令 `wget https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/ARL_toolkit.tar.gz` 直接在服务器上下载
+   也可以通过命令 `wget https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/ARL_toolkit-old.tar.gz` 直接在服务器上下载
 
    该操作可能会出现服务器访问不到 GitHub 的情况，如果无法访问则需要开启代理，临时代理命令脚本 -> [Linux-proxy.sh](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Linux-proxy.sh)
 
