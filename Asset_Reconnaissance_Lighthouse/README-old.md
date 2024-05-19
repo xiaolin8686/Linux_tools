@@ -31,7 +31,7 @@
    tar -zxvf ARL_toolkit-old.tar.gz
    ~~~
 
-   ![image-20240519142308017](https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240519142308017.png)
+   ![image-20240519142308017](https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240519142308017.png?raw=true)
 
 3. （非必须）计算软件包/脚本的 md5 值，进行对比，确认软件包并未被更改
 
@@ -39,7 +39,7 @@
    find . -type f -print0 | xargs -0 md5sum
    ~~~
 
-   ![image-20240519142327923](https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240519142327923.png)
+   ![image-20240519142327923](https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240519142327923.png?raw=true)
 
 4. 执行自动化安装脚本（**注意：需要 root 权限，安装过程中 CentOS 7 系统需要全程连接网络，请保持网络连接稳定性**）
 
@@ -47,23 +47,23 @@
    sudo bash main.sh
    ~~~
 
-   ![image-20240517204333521](https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240517204333521.png)
+   ![image-20240517204333521](https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240517204333521.png?raw=true)
 
    等待脚本运行 完毕，系统自动重启即可，如图
 
-   ![image-20240517204812982](https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240517204812982.png)
+   ![image-20240517204812982](https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240517204812982.png?raw=true)
 
 5. 登录系统 `https://IP:5003/` **协议是 https，http 可能访问不到系统**
 
-   <img src="https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240517205434058.png" alt="image-20240517205434058" style="zoom: 67%;" />
+   <img src="https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240517205434058.png?raw=true" alt="image-20240517205434058" style="zoom: 67%;" />
 
-   <img src="https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240517205516452.png" alt="image-20240517205516452" style="zoom: 67%;" />
+   <img src="https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240517205516452.png?raw=true" alt="image-20240517205516452" style="zoom: 67%;" />
 
    
 
 6. 默认账户/密码：admin/arlpass
 
-   <img src="https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240517205609151.png" alt="image-20240517205609151" style="zoom:67%;" />
+   <img src="https://github.com/xiaolin8686/Linux_tools/blob/main/Asset_Reconnaissance_Lighthouse/pic/image-20240517205609151.png?raw=true" alt="image-20240517205609151" style="zoom:67%;" />
 
 ## 可能报错
 
