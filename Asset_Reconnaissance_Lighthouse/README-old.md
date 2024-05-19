@@ -27,7 +27,10 @@
 2. 解压软件包
 
    ~~~bash
+   # 若是通过 wget 命令下载软件包，可以先更改软件包名字，这样后面的命令就可以直接复制执行了
    mv ARL_toolkit-old.tar.gz ARL_toolkit.tar.gz
+
+   # 解压软件包
    tar -zxvf ARL_toolkit.tar.gz
    ~~~
 
