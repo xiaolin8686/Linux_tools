@@ -2,7 +2,7 @@
 
 >支持系统：CentOS 7		[系统部署教程](https://blog.csdn.net/zatongtong/article/details/135666908)
 >
->软件包下载地址：[GitHub.com](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/ARL_toolkit.tar.gz)
+>软件包下载地址：[GitHub.com](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/ARL_toolkit-old.tar.gz)
 >
 >**注意：该脚本原本就只测试了 CentOS 7，且该脚本未在云服务器上执行过，若在云服务器上执行安装脚本可能会出现未知 bug**
 
