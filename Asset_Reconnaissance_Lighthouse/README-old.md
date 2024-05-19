@@ -10,7 +10,7 @@
 
 | 脚本/软件包        | 功能                                               | MD5 校验值                       |
 | ------------------ | -------------------------------------------------- | -------------------------------- |
-| ARL_toolkit.tar.gz | ARL 总软件包，里面包含了安装所需的全部脚本和软件包 | 46BB0DE520278E01781A92C4FECF60FC |
+| ARL_toolkit-old.tar.gz | ARL 总软件包，里面包含了安装所需的全部脚本和软件包 | 46BB0DE520278E01781A92C4FECF60FC |
 | main.sh            | 入口脚本，由 ARL 安装脚本 setup-arl.sh 改编而来    | 1FB45E41CD2E7DDB2AE768E4ABDF158F |
 | init_env.sh        | 辅助脚本，主要系统环境部署                         | 3793909A7196843ECFFA833AC8BE6E3F |
 | package.zip        | 辅助脚本所需软件包                                 | 5082B69B96AC285225665E00D39641CB |
@@ -27,11 +27,8 @@
 2. 解压软件包
 
    ~~~bash
-   # 若是通过 wget 命令下载软件包，可以先更改软件包名字，这样后面的命令就可以直接复制执行了
-   mv ARL_toolkit-old.tar.gz ARL_toolkit.tar.gz
-
    # 解压软件包
-   tar -zxvf ARL_toolkit.tar.gz
+   tar -zxvf ARL_toolkit-old.tar.gz
    ~~~
 
    ![image-20240517203617099](pic/image-20240517203617099.png)
