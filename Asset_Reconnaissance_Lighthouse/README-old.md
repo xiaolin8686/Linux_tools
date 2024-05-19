@@ -27,6 +27,7 @@
 2. 解压软件包
 
    ~~~bash
+   mv ARL_toolkit-old.tar.gz ARL_toolkit.tar.gz
    tar -zxvf ARL_toolkit.tar.gz
    ~~~
 
