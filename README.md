@@ -4,13 +4,13 @@
 
 ## Proxy
 
-| 名称           | 功能                                                  | 使用方法                                                     | 下载地址                                                     |
+| 名称           | 功能                                                  | 使用方法                                                     | 点击下载                                                     |
 | -------------- | ----------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Linux-proxy.sh | Linux shell 终端临时代理命令生成器                    |                                                              | [下载地址](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Linux-proxy.sh) |
-| proxy_bashrc   | CentOS 7 永久全局代理(通过操作 ~/.bashrc 文件实现)    | [使用方法](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Global_Proxy/README.md#proxy_bashrc) | [下载地址](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/proxy_bashrc) |
-| proxy_profile  | CentOS 7 永久全局代理(通过操作 /etc/profile 文件实现) | [使用方法](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Global_Proxy/README.md#proxy_profile) | [下载地址](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/proxy_profile) |
-| proxy_kali     | Kali 永久全局代理                                     | [使用方法](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Global_Proxy/README.md#proxy_kali) | [下载地址](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/proxy_kali) |
-| proxy_docker   | Docker 代理设置器                                     | [使用方法](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Global_Proxy/README.md#proxy_docker) | [下载地址](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/proxy_docker) |
+| Linux-proxy.sh | Linux shell 终端临时代理命令生成器                    |                                                              | [点击下载](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Linux-proxy.sh) |
+| proxy_bashrc   | CentOS 7 永久全局代理(通过操作 ~/.bashrc 文件实现)    | [使用方法](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Global_Proxy/README.md#proxy_bashrc) | [点击下载](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/proxy_bashrc) |
+| proxy_profile  | CentOS 7 永久全局代理(通过操作 /etc/profile 文件实现) | [使用方法](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Global_Proxy/README.md#proxy_profile) | [点击下载](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/proxy_profile) |
+| proxy_kali     | Kali 永久全局代理                                     | [使用方法](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Global_Proxy/README.md#proxy_kali) | [点击下载](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/proxy_kali) |
+| proxy_docker   | Docker 代理设置器                                     | [使用方法](https://github.com/xiaolin8686/Linux_tools/blob/main/Proxy/Global_Proxy/README.md#proxy_docker) | [点击下载](https://github.com/xiaolin8686/Linux_tools/releases/download/V1.0/proxy_docker) |
 
 ## CentOS-7-Yum-aliyun.sh
 
